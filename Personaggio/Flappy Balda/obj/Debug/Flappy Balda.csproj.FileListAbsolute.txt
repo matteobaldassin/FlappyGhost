@@ -1,0 +1,9 @@
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\bin\Debug\Flappy Balda.exe.config
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\bin\Debug\Flappy Balda.exe
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\bin\Debug\Flappy Balda.pdb
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy Balda.csprojResolveAssemblyReference.cache
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy_Balda.Form1.resources
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy_Balda.Properties.Resources.resources
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy Balda.csproj.GenerateResource.Cache
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy Balda.exe
+r:\documents\visual studio 2015\Projects\Flappy Balda\Flappy Balda\obj\Debug\Flappy Balda.pdb
