@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Flappy">
+  <ClassDiagramComponents>
+    <Class name="Personaggio" package="" visibility="public" xPosition="41.0" yPosition="61.0">
+      <Fields>
+        <Field name="dimensione" type="int" visibility="private" isFinal="true"/>
+        <Field name="distanzaDaSuolo" type="int" visibility="private"/>
+        <Field name="centro" type="Punto" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setAltezza" returnType="int" visibility="public">
+          <Argument type="int" name="val"/>
+        </Method>
+        <Method name="getDimensione" returnType="int" visibility="public"/>
+        <Method name="getDistanzaSuolo" returnType="int" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Ostacoli" package="" visibility="public" xPosition="234.0" yPosition="61.0">
+      <Fields>
+        <Field name="vett" type="Ostacolo[]" visibility="private"/>
+        <Field name="numOstacoli" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="Sposta" returnType="int" visibility="public">
+          <Argument type="int" name="spost"/>
+        </Method>
+        <Method name="ultimoOstacolo" returnType="Ostacolo" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Ostacolo" package="" visibility="public" xPosition="472.0" yPosition="61.0">
+      <Fields>
+        <Field name="rettangolo1" type=" Rettangolo" visibility="private"/>
+        <Field name="rettangolo2" type=" Rettangolo" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="colpito" returnType="Personaggio" visibility="public">
+          <Argument type="Personaggio" name="pers"/>
+        </Method>
+        <Method name="disegna" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name=" Rettangolo" package="" visibility="public" xPosition="420.0" yPosition="313.0">
+      <Fields>
+        <Field name="altoSx" type="Punto" visibility="private"/>
+        <Field name="bassoDx" type="Punto" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="JPunto" name="altoSx"/>
+          <Argument type="JPunto" name="bassoDx"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Punto" package="" visibility="public" xPosition="518.0" yPosition="489.0">
+      <Fields>
+        <Field name="x" type="int" visibility="private"/>
+        <Field name="y" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="x"/>
+          <Argument type="int" name="y"/>
+        </Constructor>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Comunicazione" package="" visibility="public" xPosition="41.0" yPosition="313.0">
+      <Fields>
+        <Field name="valore" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="LeggiSeriale" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Timer" package="" visibility="public" xPosition="215.0" yPosition="313.0">
+      <Fields>
+        <Field name="intervalloRilevazione" type="int" visibility="private"/>
+        <Field name="giocatore" type="Personaggio" visibility="private"/>
+        <Field name="ostacoli" type="Ostacoli" visibility="private"/>
+        <Field name="velocitaX" type="int" visibility="private"/>
+        <Field name="usbArduino" type="Comunicazione" visibility="private"/>
+        <Field name="distanzaOstacoliX" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Gioca" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="altoSx,bassoDx" source=" Rettangolo" target="Punto" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="rettangolo1,2" source="Ostacolo" target=" Rettangolo" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="vett" source="Ostacoli" target="Ostacolo" type="Aggregation" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
