@@ -1,0 +1,14 @@
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.csprojResolveAssemblyReference.cache
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Form1.resources
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Properties.Resources.resources
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.csproj.GenerateResource.Cache
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\bin\Debug\FlappyGhost-v1.exe.config
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Form1.resources
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Properties.Resources.resources
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.UserControl1.resources
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.csproj.GenerateResource.Cache
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\bin\Debug\FlappyGhost-v1.exe
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\bin\Debug\FlappyGhost-v1.pdb
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.exe
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.pdb
+R:\Documents\Visual Studio 2015\Projects\FlappyGhost-v11\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.GameControl.resources

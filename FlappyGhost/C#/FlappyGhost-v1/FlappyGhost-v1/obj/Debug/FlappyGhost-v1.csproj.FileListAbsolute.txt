@@ -1,0 +1,4 @@
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.csprojResolveAssemblyReference.cache
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Form1.resources
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost_v1.Properties.Resources.resources
+c:\users\zeta\documents\visual studio 2017\Projects\FlappyGhost-v1\FlappyGhost-v1\obj\Debug\FlappyGhost-v1.csproj.GenerateResource.Cache
